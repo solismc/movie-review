@@ -1,7 +1,8 @@
 .App {
   text-align: center;
-  background-color: blue;
-
+  background-color: #B1D4E0;
+  list-style-type: none;
+  
 }
 
 .App-logo {
@@ -10,19 +11,39 @@
 }
 
 .App-header {
-  background-color: #222;
+  background-color: #2E8BC0;
   height: 150px;
   padding: 20px;
   color: white;
+  list-style-type: none;
 }
 
 .App-title {
   font-size: 1.5em;
 }
 
+.MovieList {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  list-style: none;
+}
+.li.movie {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  list-style: none;
+}
+
+.img{
+  display: flex;
+  align-items: flex-start
+}
+
 .App-intro {
   font-size: large;
-  background-color: blue;
+  background-color: #B1D4E0;
+  list-style: none;
 }
 
 @keyframes App-logo-spin {
